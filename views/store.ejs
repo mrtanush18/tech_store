@@ -1,0 +1,117 @@
+<%- include('partials/header') %>
+
+    <h1 class="header-name header-name-large">Browse by category</h1>
+    <br>
+    <div class="center-button">
+        <a href ="http://localhost:3000/contact.ejs"><button class="btn btn-primary margin-right">Contact us</button></a>
+        <a href="http://localhost:3000"><button class="btn btn-danger">Log out</button></a>
+    </div>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">SMARTPHONES</h2>
+        <hr>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Samsung</span>
+                <img class="shop-item-image" src="Images/Samsung.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 19000 </span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+            <!-- ITEM 1 ENDS HERE -->
+            <div class="shop-item">
+                <span class="shop-item-title">Oppo</span>
+                <img class="shop-item-image" src="Images/oppo.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 15000</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Vivo</span>
+                <img class="shop-item-image" src="Images/vivo.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 17000</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Oneplus</span>
+                <img class="shop-item-image" src="Images/oneplus.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 29000</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <hr>
+        <h2 class="section-header">Laptops</h2>
+        <hr>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">HP</span>
+                <img class="shop-item-image" src="Images/hp 15.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 50000</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Dell</span>
+                <img class="shop-item-image" src="Images/dell.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 65000</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Acer</span>
+                <img class="shop-item-image" src="Images/acer.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 49000</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Lenovo</span>
+                <img class="shop-item-image" src="Images/lenovo.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs 31941</span>
+                    <button class="btn btn-danger shop-item-button" type="button">🛒</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <hr>
+        <h2 class="section-header">CART</h2>
+
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+
+        <div class="cart-items">
+
+        </div>
+        
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">Rs 0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+
+        <!-- Go Up -->
+        <div class="center-button">
+            <a href="#top"><button class="btn btn-danger">^</button></a>
+        </div>
+
+    </section>
+    <script src="js/store.js"></script>
+
+    <%- include('partials/footer') %>
+    

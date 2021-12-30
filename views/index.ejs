@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+ 
+
+        <h1 class="header-name header-name-large">The Tech Store</h1>
+        <span class="center-button">
+            <a href="http://localhost:3000/register"><button class="btn btn-danger margin-right">Register</button></a>
+            <a href="http://localhost:3000/login"><button class="btn btn-primary margin-right">Log in</button></a>
+            <!-- <div class="col-3"> -->
+            <button id='btnPause' class="btn btn-danger">Stop slider</button>
+            <!-- </div> -->
+        </span>
+    </header>
+    <section class="content-section container">
+        <h2 class="section-header">Latest Products</h2>
+        <div class='container'>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div id="carouselAnimals" class="carousel slide" data-bs-ride="carousel" data-bs-interval='1000'
+                            data-interval='100'>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Images/oneplus.jpg" class="d-block w-50" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/keyboard.jpg" class="d-block w-50" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/oppo.jpg" class="d-block w-50" alt="...">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<%- include('partials/footer') %>

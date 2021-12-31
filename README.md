@@ -9,7 +9,7 @@ A web application to check latest tech products available online. Users can regi
 <p>Working:</p>
 Although the user can access home page without creating an account, but for viewing all new products available having a user account is required.                                                             
 
-<p>Login/Register:</p>
+<p> </p>
 
 <ol type = "1">
   <li>Login: </li>

@@ -7,25 +7,30 @@ A web application to check latest tech products available online. Users can regi
 ![](public/Images/1.png)
 
 <p>Working:</p>
-Although the user can access home page without having an account, but for viewing all new products available in store having a user account is required      
-<br>
+Although the user can access home page without creating an account, but for viewing all new products available having a user account is required.                                                             
+
 <p>Login/Register:</p>
 
-1) Login:
-i. Old customers, who have an account can use the website by simply entering their email ID and password in the login section.
-ii. The entered pair of email ID and password is matched with the existing records in the database. If match is found then the user can proceed further.
-iii. In case of failure, then the user need to enter the credentials again.
+<ol type = "1">
+  <li>Login: </li>
+<ol type = "i">     
+<li>Old customers, who have an account can use the website by simply entering their email ID and password in the login section.</li>
+<li>The entered pair of email ID and password is matched with the existing records in the database. If match is found then the user can proceed further.</li>
+<li>In case of failure, then the user need to enter the credentials again.</li>
+  </ol>
 
 ![](public/Images/9.png)
 
-2) Register:
-i. New users, who don’t have an account can start by clicking the register option on the home page
-ii. Here, the user needs to create new account by entering their email ID and password
-iii. Submitting the above mentioned details will create a new user account.
+  <li>Register:  </li>
+<ol type = "i">                                                                         
+<li>New users, who don’t have an account can start by clicking the register option on the home page</li>
+<li>Here, the user needs to create new account by entering their email ID and password</li>
+<li>Submitting the above mentioned details will create a new user account.</li>
+  </ol>
 
 ![](public/Images/2.png)
 
-3) Store page
+  <li>Store page: </li>
 On registering user can access store page where they can browse available products, add to shopping cart any product, increase number of items, remove chosen product.
 The total cost will be updated.
 
@@ -34,18 +39,23 @@ The total cost will be updated.
 ![](public/Images/5.png)
 ![](public/Images/6.png)
 
-4) Contact Page
+  <li>Contact Page </li>
 Users can also contact site admin if they face any issue while browsing the website. On submitting successfully, a success page will be shown.
 
 ![](public/Images/7.png)
 ![](public/Images/8.png)
+  
+  <li>The site also has dark mode on by default which can be turned off by button at bottom. </li>
+</ol>
 
 Programming languages used:
-
-HTML
-CSS
-JavaScript
-SQL
-
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>SQL</li>
+</ul>
 Libraries used:
-Bootstrap
+<ul>
+<li>Bootstrap</li>
+  </ul>

@@ -19,7 +19,7 @@ Although the user can access home page without creating an account, but for view
 <li>In case of failure, then the user need to enter the credentials again.</li>
   </ol>
 
-![](public/Images/9.png)
+![](public/Images/9.jpg)
 
   <li>Register:  </li>
 <ol type = "i">                                                                         

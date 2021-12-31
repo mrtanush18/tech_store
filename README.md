@@ -1,15 +1,15 @@
-Tech_Store
+<h1>Tech_Store</h1>
 
-Overview : 
+<p>Overview : </p>
 
 A web application to check latest tech products available online. Users can register/sign up, browse through products by category. Users can add products they want to purchase to shopping cart or contact site admin for any queries by providing relevant details. The database being used is MongoDB. Thus the website serves as a simple guide for customers as to what products are trending in market.
 
 ![](public/Images/1.png)
 
-Working:
-Although the user can access home page without having an account, but for viewing all new products available in store having a user account is required
-
-Login/Register:
+<p>Working:</p>
+Although the user can access home page without having an account, but for viewing all new products available in store having a user account is required      
+<br>
+<p>Login/Register:</p>
 
 1) Login:
 i. Old customers, who have an account can use the website by simply entering their email ID and password in the login section.
